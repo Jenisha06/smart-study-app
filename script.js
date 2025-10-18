@@ -19,7 +19,3 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.2 });
 
 featureCards.forEach(card => observer.observe(card));
-
-  <button onclick="window.location.href='login.html'">Login</button>
-
-
